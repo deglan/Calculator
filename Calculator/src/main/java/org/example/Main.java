@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Dodawanie: " + intCalculator.performOperation(5, 3, addition));
         System.out.println("Odejmowanie: " + intCalculator.performOperation(8, 2, subtraction));
 
-        // Utworzenie obiektu kalkulatora dla typu Double
+
         Calculator<Double> doubleCalculator = new Calculator<>();
 
         Operation<Double> multiplication = (a, b) -> a * b;
